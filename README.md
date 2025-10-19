@@ -20,3 +20,26 @@ Follow these steps to set up the environment for running the project.
 ```bash
 git clone [https://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
 cd [Your-Repo-Name]
+
+💾 Dataset (dataset.txt)
+The dataset used for this project is provided in dataset.txt.
+
+Source: Simulation (Specify further if known)
+
+Format: Text file. The first line is a header comment. Subsequent lines contain 9 comma-separated (or space-separated after code processing) values per record:
+
+id: Record identifier.
+
+p_deg: Pan angle in degrees.
+
+t_deg: Tilt angle in degrees.
+
+camPosX, camPosY, camPosZ: Camera position coordinates.
+
+camEulerX_deg, camEulerY_deg, camEulerZ_deg: Camera orientation as Euler angles (XYZ order) in degrees.
+
+Preparation:
+
+Place the dataset.txt file in the root directory of the project.
+
+No further preparation steps are needed; the scripts handle loading directly.
